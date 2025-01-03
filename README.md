@@ -39,7 +39,7 @@
    ( 安定のこわれっぷり )  
    ![image](image/cmd_exe_0001_NG.png)
 
-4. MSYS2 の mintty  
+4. MSYS2 の mintty 上での実行結果  
    ( 一応、大丈夫そう? )  
    ![image](image/mintty_0001.png)
 

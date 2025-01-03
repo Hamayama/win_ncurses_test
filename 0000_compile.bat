@@ -3,14 +3,11 @@ set MSYSTEM=MINGW64
 set LDFLAGS=-L/msys64/mingw64/bin
 set LIBS=-lncursesw
 set DLL=C:\msys64\mingw64\bin\libncursesw6.dll
+set PROG1=ncurses_test_1000
 
 cd /d %~dp0
 
-for %%i in (
-    ncurses_test_1000
-) do (
-    gcc -g -O2 -Wall -Wextra -o %%i.exe %%i.c %LDFLAGS% %LIBS%
-)
+gcc -g -O2 -Wall -Wextra -o %PROG1%.exe %PROG1%.c %LDFLAGS% %LIBS%
 
 copy %DLL% .
 

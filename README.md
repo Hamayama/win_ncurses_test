@@ -25,15 +25,16 @@
    0001_exec.bat を (ダブルクリック等で) 実行してください。
 
 
-## 実行結果・ノウハウ等
-1. Windows Terminal 上での実行結果 OK
+## 実行結果
+1. Windows Terminal 上での実行結果 **OK**  
+   ( かなり良さそう )
    ![image](image/winterm_0001_OK.png)
 
-2. Windows Terminal 上での実行結果 NG  
-   ( `resize_term(LINES, COLS - 1);` を実行しないとこうなる…)
+2. Windows Terminal 上での実行結果 **NG**  
+   ( `resize_term(LINES, COLS - 1);` を実行しないとこうなる)
    ![image](image/winterm_0002_NG.png)
 
-3. コマンドプロンプト上での実行結果 NG  
+3. コマンドプロンプト上での実行結果 **NG**  
    ( 安定のこわれっぷり )
    ![image](image/cmd_exe_0001_NG.png)
 
@@ -43,9 +44,9 @@
 
 
 ## TODO
-1. キー入力
-2. マウス入力
-3. 画面サイズ変更の対応
+1. キー入力の確認
+2. マウス入力の確認
+3. 画面サイズの変更の対応
 
 
 ## 環境等

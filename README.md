@@ -63,6 +63,7 @@
   - Windows 10 (version 22H2) (64bit)
 - 環境
   - MSYS2/MinGW-w64 (64bit) (gcc version 14.2.0 (Rev2, Built by MSYS2 project))
+  - ncurses 6.5.20240831-1
 
 
 ## 履歴

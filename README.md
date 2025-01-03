@@ -28,19 +28,19 @@
 
 ## 実行結果
 1. Windows Terminal 上での実行結果 **OK**  
-   ( かなり良さそう )
+   ( かなり良さそう )  
    ![image](image/winterm_0001_OK.png)
 
 2. Windows Terminal 上での実行結果 **NG**  
-   ( `resize_term(LINES, COLS - 1);` を実行しないとこうなる)
+   ( `resize_term(LINES, COLS - 1);` を実行しないとこうなる)  
    ![image](image/winterm_0002_NG.png)
 
 3. コマンドプロンプト上での実行結果 **NG**  
-   ( 安定のこわれっぷり )
+   ( 安定のこわれっぷり )  
    ![image](image/cmd_exe_0001_NG.png)
 
 4. MSYS2 の mintty  
-   ( 大丈夫そう? )
+   ( 大丈夫そう? )  
    ![image](image/mintty_0001.png)
 
 

@@ -32,7 +32,7 @@
    ![image](image/winterm_0001_OK.png)
 
 2. Windows Terminal 上での実行結果 **NG**  
-   ( `resize_term(LINES, COLS - 1);` を実行しないとこうなる)  
+   ( `resize_term(LINES, COLS - 1);` を実行しないとこうなる )  
    ![image](image/winterm_0002_NG.png)
 
 3. コマンドプロンプト上での実行結果 **NG**  
@@ -40,7 +40,7 @@
    ![image](image/cmd_exe_0001_NG.png)
 
 4. MSYS2 の mintty  
-   ( 大丈夫そう? )  
+   ( 一応、大丈夫そう? )  
    ![image](image/mintty_0001.png)
 
 

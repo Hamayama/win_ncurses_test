@@ -13,7 +13,8 @@
    (記事が古いので、現状と合っていないかもしれない)
 
 2. ncurses のインストール  
-   プログラムメニューから MSYS2 の MinGW 64bit Shell を起動して、以下のコマンドを実行してください。
+   プログラムメニューから MSYS2 の MinGW 64bit Shell を起動して、  
+   以下のコマンドを実行してください。
    ```
    pacman -S mingw64/mingw-w64-x86_64-ncurses
    ```
@@ -48,7 +49,7 @@
    また、`#define NCURSES_WIDECHAR 1` を記述しないと、mvaddwstr() 等が使えない。  
 
 2. `resize_term(LINES, COLS - 1);` を実行して、幅を 1 文字分狭くしないと、  
-   日本語の表示がずれる。
+   日本語の表示がずれる。(実行結果の 2. 参照)
 
 
 ## TODO

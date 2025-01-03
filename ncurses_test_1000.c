@@ -3,7 +3,7 @@
 // 2025-1-3 v1.00
 
 // ncurses のワイド文字対応設定
-// (これを記述しないと mvaddwstr 等が使えない)
+// (これを記述しないと mvaddwstr() 等が使えない)
 #define NCURSES_WIDECHAR 1
 
 #include <ncurses/ncurses.h>
@@ -16,7 +16,7 @@
 int main(void)
 {
     // 初期化
-    setlocale(LC_ALL, "");  // ロケール設定(なくても良い?)
+    setlocale(LC_ALL, "");  // ロケール設定
     initscr();              // 画面初期化
     noecho();               // 入力された文字を表示しない
     curs_set(0);            // カーソル非表示

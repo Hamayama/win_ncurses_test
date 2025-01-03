@@ -38,9 +38,17 @@
    ( 安定のこわれっぷり )
    ![image](image/cmd_exe_0001_NG.png)
 
-4. MSYS2 の mintty 上での実行結果  
+4. MSYS2 の mintty  
    ( 大丈夫そう? )
    ![image](image/mintty_0001.png)
+
+
+## ノウハウ等
+1. 日本語表示には ncursesw のリンクが必要。  
+   また、`#define NCURSES_WIDECHAR 1` を記述しないと、mvaddwstr() 等が使えない。  
+
+2. `resize_term(LINES, COLS - 1);` を実行して、幅を 1 文字分狭くしないと、  
+   日本語の表示がずれる。
 
 
 ## TODO

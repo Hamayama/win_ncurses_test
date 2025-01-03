@@ -1,7 +1,7 @@
 # win_ncurses_test
 
 ## 概要
-- Windows 上で、ncurses を使用するテストプログラムです。
+- Windows 上で、ncurses を使用する C のテストプログラムです。
 
 
 ## インストール方法
